@@ -1,0 +1,20 @@
+{
+  "Profile": "Profil",
+  "First name": "Vorname",
+  "Last name": "Nachname",
+  "Email": "E-Mail",
+  "Birthday": "Geburtstag",
+  "School": "Schule",
+  "School name": "Name der Schule",
+  "Class": "Meine Jahrgangsstufe",
+  "Password": "Passwort",
+  "Old Password": "Altes Password",
+  "New Password": "Neues Passwort",
+  "Confirm New Password": "Neues Passwort bestätigen",
+  "Save Changes": "Änderungen speichern",
+  "Change my subjects": "Schulfächer ändern",
+  "Change the password": "Passwort ändern",
+  "Phone number": "Telefonnummer",
+  "Enter your phone number": "Gib deine Telefonnummer an",
+  "Add new photo": "Foto hochladen"
+}

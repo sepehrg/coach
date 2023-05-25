@@ -1,0 +1,74 @@
+{
+  "Something went wrong": "Ups - irgendetwas ist schief gelaufen",
+  "Something went wrong, try again": "Ups - irgendetwas ist schief gelaufen, versuche es erneut",
+  "Auth": {
+    "Can not finish registration now": "Leider kann die Registrierung gerade nicht abgeschlossen werden",
+    "Something wrong with credentials": "Ups, sieht so aus als wären deine Anmeldedaten falsch",
+    "Successfully signed in": "Erfolgreich eingeloggt - wilkommen bei Educoach!",
+    "Successfully logged out": "Erfolgreich ausgeloggt - bis zum nächsten Mal!",
+    "Something wrong with logout": "Beim Ausloggen ist irgendetwas schiefgelaufen",
+    "Can not get profile details": "Profilinformationen sind leider nicht verfügbar",
+    "Successfully updated profile": "Deine Profiländerungen wurden erfolgreich gespeichert",
+    "Password successfully updated": "Dein neues Passwort wurde erfolgreich gespeichert",
+    "Password successfully reset": "Dein Passwort wurde erfolgreich zurückgesetzt",
+    "Password was not updated": "Altes Passwort ist falsch",
+    "Email is already taken": "Die Email Adresse ist leider schon vergeben",
+    "Nickname is already taken": "Dieser Spitzname ist leider schon vergeben",
+    "User does not exist": "Leider ist uns dieser Nutzer nicht bekannt"
+  },
+  "Grade": {
+    "Can not get grades": "Noten sind leider nicht verfügbar"
+  },
+  "Group": {
+    "Can not get group lesson": "Gruppen Session ist leider nicht verfügbar"
+  },
+  "Groups": {
+    "Can not get groups now": "Gruppen sind leider nicht verfügbar",
+    "Can not create a group now": "Gruppen können gerade leider nicht erstellt werden",
+    "Group successfully updated": "Die Gruppe wurde erfolgreich geupdatet",
+    "Can not edit": "Kann leider nicht geändert werden",
+    "You have successfully left the group": "Du hast erfolgreich die Gruppe verlassen",
+    "Can not leave this group now": "Du kannst gerade die Gruppe leider nicht verlassen",
+    "The group was deleted": "Die Gruppe wurde gelöscht",
+    "Can not delete group now": "Die Gruppe kann leider nicht gelöscht werden"
+  },
+  "Lessons": {
+    "Can not get lessons": "Unterrichte sind leider nicht verfügbar",
+    "Can not get lessons by current day": "Der Unterricht von heute ist leider nicht verfügbar",
+    "Can not create a lesson": "Unterricht kann leider nicht erstellt werden",
+    "Group with this name already exists": "Dieser Gruppenname existiert leider schon",
+    "Can not delete lesson": "Der Unterricht kann leider nicht gelöscht werden",
+    "Can not get lesson": "Der Unterricht ist leider nicht verfügbar",
+    "Can not start the lesson": "Der Unterricht kann leider nicht gestartet werden"
+  },
+  "Materials": {
+    "Can not get materials": "Lerninhalte sind leider nicht verfügbar",
+    "Can not like": "Der Link kann leider nicht geliked werden",
+    "Can not suggest link": "Der Link kann leider nicht vorgeschlagen werden",
+    "Can save history": "Can not save history."
+  },
+  "Schools": {
+    "Can not get schools": "Schulen sind leider nicht verfügbar"
+  },
+  "Subjects": {
+    "Can not get subjects": "Das Schulfach ist leider nicht verfügbar",
+    "Can not get subject now": "Das Schulfach ist gerade leider nicht verfügbar",
+    "Suggested subject created": "Dein Schulfach wurde erfolgreich erstellt",
+    "Can not create suggested subject": "Dein vorgeschlagenes Schulfach konnte leider nicht erstellt werden",
+    "Can not update your subjects": "Deine Schulfächer konnten leider nicht aktualisiert werden",
+    "Subjects successful updated": "Neue Fächer wurden gespeichert"
+  },
+  "Summary": {
+    "Can not create a summary": "Zusammenfassung kann leider nicht erstellt werden",
+    "Thanks for your feedback": "Danke für dein Feedback"
+  },
+  "Teacher": {
+    "Can not get students list": "Die Schülerliste ist leider nicht verfügbar",
+    "Can not get lessons": "Unterrichte sind leider nicht verfügbar"
+  },
+  "Topics": {
+    "Can not get topics": "Themen sind leider nicht verfügbar",
+    "Can not get topics by current subject": "Themen des Schulfachs sind leider nicht verfügbar",
+    "Can not get current topic": "Das aktuelle Thema ist leider nicht verfügbar"
+  }
+}

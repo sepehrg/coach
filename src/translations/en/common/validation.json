@@ -1,0 +1,50 @@
+{
+  "Common": {
+    "Required": "Required",
+    "Too Short": "Too short",
+    "Too Long": "Too long",
+    "This field is required": "This field is required",
+    "Not filled": "Not filled"
+  },
+  "Email": {
+    "Invalid": "Invalid email",
+    "Required": "Email required",
+    "Email already in use": "Email already in use",
+    "Max": "Max length is 30"
+  },
+  "Phone": {
+    "Invalid": "This phone number is invalid, please enter phone like 01701234567",
+    "Required": "Phone is required"
+  },
+  "First name": {
+    "Required": "First name required",
+    "Min": "First name must be longer than 2 symbols",
+    "Max": "First name  must be shorter than 20 symbols"
+  },
+  "Last name": {
+    "Required": "Last name is required",
+    "Min": "Last name must be longer than 2 symbols",
+    "Max": "Last name must be shorter than 20 symbols"
+  },
+  "Password": {
+    "Required": "Password required",
+    "Min": "Password must be longer than 8 symbols",
+    "Max": "Password must be shorter than 16 symbols",
+    "Not Match": "Password do not match"
+  },
+  "Birthdate": {
+    "Required": "Birthday required"
+  },
+  "School": {
+    "Required": "School required"
+  },
+  "Class": {
+    "Required": "Class required"
+  },
+  "Material Link": {
+    "Too long": "Description is too long",
+    "Describe": "Select grade",
+    "Enter url": "Enter a URL please",
+    "Enter valid url": "Enter a valid URL please"
+  }
+}

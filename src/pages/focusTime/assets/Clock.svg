@@ -1,0 +1,27 @@
+<svg width="259" height="272" xmlns="http://www.w3.org/2000/svg">
+
+ <mask height="72" width="72" y="1" x="182" maskUnits="userSpaceOnUse" id="mask0">
+  <circle id="svg_1" fill="#C4C4C4" transform="rotate(-140 217.98199462890622,37.0177001953125) " r="25.5405" cy="37.0177" cx="217.982"/>
+ </mask>
+ <mask height="74" width="73" y="0" x="5" maskUnits="userSpaceOnUse" id="mask1">
+  <circle id="svg_2" fill="#C4C4C4" transform="rotate(138.0989990234375 41.06679916381836,37.047298431396484) " r="25.5405" cy="37.0473" cx="41.0668"/>
+ </mask>
+ <g>
+  <title>background</title>
+  <rect fill="none" id="canvas_background" height="602" width="802" y="-1" x="-1"/>
+ </g>
+ <g>
+  <title>Layer 1</title>
+  <rect id="svg_3" fill="#0091FF" transform="rotate(60 200.83200073242188,227) " rx="6.83086" height="13.6617" width="43" y="227" x="200.832"/>
+  <rect id="svg_4" fill="#0091FF" transform="matrix(0.5,-0.866025,-0.866025,-0.5,47.8315,271.07) " rx="6.83086" height="13.6617" width="43"/>
+  <circle id="svg_5" fill="#0091FF" r="129.5" cy="137.5" cx="129.5"/>
+  <circle id="svg_6" fill="white" r="121.5" cy="137.5" cx="129.5"/>
+  <circle id="svg_7" fill="#ECECEC" r="112" cy="138" cx="130"/>
+  <g id="svg_12" mask="url(#mask0)">
+   <rect id="svg_13" fill="#0091FF" transform="rotate(-140 243.6340026855469,58.54219818115233) " height="36.3243" width="66.4054" y="58.5422" x="243.634"/>
+  </g>
+  <g id="svg_14" mask="url(#mask1)">
+   <rect id="svg_15" fill="#0091FF" transform="rotate(138.0989990234375 65.9906997680664,14.683600425720215) " height="36.3243" width="66.4054" y="14.6836" x="65.9907"/>
+  </g>
+ </g>
+</svg>

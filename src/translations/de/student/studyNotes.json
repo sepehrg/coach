@@ -1,0 +1,26 @@
+{
+  "Tools": "Tools",
+  "Overview": "Übersicht",
+  "Headline": "Gib deiner Überschrift einen Namen…",
+  "Favorite": "Favoriten",
+  "Today": "Heute",
+  "Your Favourites": "Deine Favoriten",
+  "Overview of your notes": "Übersicht Deiner Notizen",
+  "Select subject": "Wähle ein Fach",
+  "Select year": "Wähle ein Jahr",
+  "Select month": "Wähle einen Monat",
+  "Month": {
+    "January": "Januar",
+    "February": "Februar",
+    "March": "März",
+    "April": "April",
+    "May": "Mai",
+    "June": "Juni",
+    "July": "Juli",
+    "August": "August",
+    "September": "September",
+    "October": "Oktober",
+    "November": "November",
+    "December": "Dezember"
+  }
+}

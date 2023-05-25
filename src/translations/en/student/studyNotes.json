@@ -1,0 +1,26 @@
+{
+  "Tools": "Tools",
+  "Overview": "Overview",
+  "Headline": "Give your headline a title...",
+  "Favorite": "Favorite",
+  "Today": "Today",
+  "Your Favourites": "Your favorites",
+  "Overview of your notes": "Overview of your notes",
+  "Select subject": "Select subject",
+  "Select year": "Wähle ein Jahr",
+  "Select month": "Wähle einen Monat",
+  "Month": {
+    "January": "January",
+    "February": "February",
+    "March": "March",
+    "April": "April",
+    "May": "May",
+    "June": "June",
+    "July": "July",
+    "August": "August",
+    "September": "September",
+    "October": "October",
+    "November": "November",
+    "December": "December"
+  }
+}

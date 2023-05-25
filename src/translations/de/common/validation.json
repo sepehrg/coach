@@ -1,0 +1,51 @@
+{
+  "Common": {
+    "Required": "Erforderlich",
+    "Too Short": "Der Titel ist zu kurz",
+    "Too Long": "Der Titel ist zu lang",
+    "This field is required": "Das Feld muss ausgefüllt sein",
+    "Not filled": "Nicht gefüllt"
+  },
+  "Email": {
+    "Invalid": "Bitte gib eine gültige E-Mail Adresse ein",
+    "Required": "Email erforderlich",
+    "Email already in use": "Die Email Adresse ist leider schon vergeben",
+    "Max": "Die E-Mail muss kürzer als 30 Zeichen sein"
+  },
+  "Phone": {
+    "Invalid": "Diese Telefonnummer ist nicht gültig, bitte nutze dieses Format 01701234567",
+    "Required": "Telefonnummer erforderlich"
+  },
+  "First name": {
+    "Required": "Wie lautet dein Vorname?",
+    "Min": "Dein Vorname muss mehr als 2 Zeichen haben",
+    "Max": "Dein Vorname darf nicht mehr als 20 Zeichen haben"
+  },
+  "Last name": {
+    "Required": "Wie lautet dein Nachname?",
+    "Min": "Dein Nachname muss mehr als 2 Zeichen haben",
+    "Max": "Dein Nachname darf nicht mehr als 20 Zeichen haben"
+  },
+  "Password": {
+    "Required": "Passwort erforderlich",
+    "Min": "Das Passwort muss länger als 8 Symbole sein",
+    "Max": "Das Passwort muss kürzer als 16 Symbole sein",
+    "Not Match": "Passwort stimmt nicht überein"
+  },
+  "Birthdate": {
+    "Required": "Geburtstag erforderlich"
+  },
+  "School": {
+    "Required": "Schule erforderlich"
+  },
+  "Class": {
+    "Required": "Klasse erforderlich"
+  },
+  "Material Link": {
+    "Too long": "Beschreibung ist zu lang",
+    "Describe": "Select grade",
+    "Enter url": "Füge den Link ein",
+    "Enter valid url": "Gib einen gültigen Link an"
+  },
+  "TooShort": "Bitte gib etwas mehr an"
+}

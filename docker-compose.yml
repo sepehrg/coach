@@ -1,0 +1,17 @@
+version: '3.9'
+
+services:
+  frontend:
+    container_name: educoach-frontend
+    image: registry.gitlab.com/educoach/educoach-frontend:latest
+    networks:
+      - educoach
+    labels:
+      - 'traefik.enable=true'
+      - 'traefik.http.routers.frontend.rule=Host(`${DOMAIN}`)'
+      - 'traefik.http.routers.frontend.entrypoints=websecure'
+      - 'traefik.http.routers.frontend.tls.certresolver=myresolver'
+
+networks:
+  educoach:
+    external: true

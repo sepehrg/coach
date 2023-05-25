@@ -1,0 +1,177 @@
+{
+  "Start": "Start",
+  "Focus time from last time": "Fokuszeit vom letzten mal",
+  "Finish study": "Fokuszeit beenden",
+  "Finish search": "Suche beenden",
+  "Back to study links": "Zurück zu Lerninhalten",
+  "BackToLearn": "Zurück zu den Lerninhalten",
+  "Material": "Lernmaterial",
+  "How long": "Wie lange möchtest du heute lernen?",
+  "Good to start with": "Schnell und bündig",
+  "Today I am motivated": "Heute bin ich motiviert",
+  "Recommended Sources": "Empfohlene Quellen",
+  "Thanks": "Wir prüfen deinen Vorschlag und stellen ihn in die Lernbibliothek.",
+  "My homework": "Meine Hausaufgaben",
+  "Upcoming exams": "Anstehende Prüfungen",
+  "days overdue": "Tag(e) überfällig",
+  "for today": "für heute",
+  "days left": "Tag(e) übrig",
+  "Another link for subject": "Eigenen Link vorschlagen",
+  "Add Homework": "Gib hier eine Notiz zur Hausaufgabe ein",
+  "Add Homework Explanaition": "Hier kannst du nun deine Prüfungen oder Hausaufgaben hinterlegen. Ich helfe dir dann, dich besser zu organisieren",
+  "No recommended sources available": "Für dieses Thema haben wir leider noch keine Lerninhalte! Aber es wäre toll, wenn du das Internet durchsuchst und uns gute Inhalte vorschlägst!",
+  "Search study content": "Suche hier nach passenden Lernquellen",
+  "Session goal": "Lernziel",
+  "Today": "Heute",
+  "Which topic": "Welches Thema interessiert dich?",
+  "Topics found": "Gefundene Themen",
+  "Help me": "Hilf mir",
+  "What topic are you looking for": "Welches Thema suchst Du?",
+  "Important appointments": "Wichtige Termine",
+  "Friends": "Freunde",
+  "Family": "Familie",
+  "Time for myself": "Zeit für mich",
+  "Ido": "Ido",
+  "Name of appointment": "Was steht an?",
+  "What are you planning": "Was hast du vor?",
+  "Date": "Datum",
+  "Time": "Zeit",
+  "Details": "Notizen",
+  "LoFi": "LoFi",
+  "Recommendations": "Empfehlungen",
+  "Learning History": "Verlauf",
+  "Study Cards": "Karteikarten",
+  "Recommended for you": "Für dich empfohlen",
+  "More search results": "Weitere Suchergebnisse",
+  "Help Me Modal": {
+    "Ways to search for topics": "So kannst du das richtige Thema finden",
+    "Note": "Hinweis",
+    "If unsure": "Wenn du dir nicht sicher bist, dann schreibe die Überschrift des letzten Hefteintrags in das Suchfeld",
+    "Got it": "Alles klar!",
+    "Hint 1": "Auf deiner letzten Buchseite ganz oben",
+    "Hint 2": "Auf Arbeitsblättern",
+    "Hint 3": "In deinem letzten Hefteintrag"
+  },
+  "Recommendation": {
+    "All": "Alles",
+    "Summary": "Zusammen-\nfassung",
+    "Exercise sheets": "Arbeitsblatt",
+    "Video": "Video"
+  },
+  "Another Link Modal": {
+    "I want to suggest a link": "Ich möchte euch einen Link vorschlagen!",
+    "Subject": "Fach:",
+    "Grade": "Jahrgangsstufe:",
+    "Copy the link in here": "Link hier einfügen:",
+    "What happens then": "Information",
+    "When the teacher check": "Wenn unser Team deinen Link geprüft hat, wird dieser unserer Datenbank hinzugefügt. Danke für deine Unterstützung!"
+  },
+  "Sources": {
+    "All": "Alle",
+    "Visual": "Visuell",
+    "Auditory": "Audio",
+    "Kensethetic": "Kinästhetisch",
+    "Reading/Writing": "Lesen und schreiben"
+  },
+  "Timer": {
+    "Remaining": "verbleibend",
+    "Finish Learning": "Lernen abschließen"
+  },
+  "Confirmation": {
+    "Are you sure": "Fokuszeit wirklich abbrechen?",
+    "Time Spent": "Du hast {{minutes}} Minuten gelernt!",
+    "Continue Learning": "Zurück",
+    "Finish Learning": "Abrechen"
+  },
+  "Help": {
+    "Learning Types": "Lerntypen",
+    "Visual": "Video",
+    "Auditory": "Audio",
+    "Kensethetic": "Kinästhetisch",
+    "Reading/Writing": "Lesen/Schreiben",
+    "Continue Learning": "Weiterlernen"
+  },
+  "Finish Automatic Modal": {
+    "Time's up": "Zeit abgelaufen",
+    "Today's study time": "Heutige Lernzeit",
+    "minutes": "Minuten",
+    "What do you want to do?": "Was willst du machen?",
+    "Continue studying": "Lernen fortsetzen",
+    "Done": "Lernen abschließen",
+    "Take a break": "Pause machen"
+  },
+  "Add Homework Modal": {
+    "Add": "Hinzufügen",
+    "Homework": "Hausaufgabe",
+    "Exam": "Prüfung",
+    "Subject": "Fach",
+    "Select subject": "Wähle das Schulfach",
+    "Enter title": "{{type}}-Titel eingeben",
+    "Completed": "Fertig",
+    "Save": "Speichern"
+  },
+  "Break Modal": {
+    "Did you know": "Wusstest du, dass",
+    "Finish break": "Pause beenden",
+    "Break time": "Lern-Pause"
+  },
+  "Yeah you made it": "Yeaahh!",
+  "How happy": "Wie zufrieden warst du heute mit der Lernaktivität?",
+  "Summarize": "Bitte fasse zusammen, was du heute gelernt hast:",
+  "Something": "Etwas, das du lernen oder verbessern möchtest",
+  "Complete": "Fertig",
+  "Session Type": {
+    "Hi": "Hey ",
+    "How can I help": "Wie kann ich dir helfen?",
+    "study session": "Lass uns eine Lernsession planen",
+    "look up": "Ich will nur schnell etwas nachschlagen"
+  },
+  "Select Subject": {
+    "Choose": "Wähle dein Schulfach aus"
+  },
+  "Select Goal": {
+    "Choose your focus time": "Starte deine Fokuszeit!",
+    "Do your homework": "Hausaufgaben erledigen",
+    "Study concentrated": "Konzentriert lernen",
+    "Prepare for your next exam": "Auf Prüfung vorbereiten",
+    "Repeat what you have already learned": "Wiederhole bereits Gelerntes"
+  },
+  "Set Time": {
+    "How long": "Wie lange möchtest du dir Zeit nehmen?",
+    "Set time": "Weiter"
+  },
+  "Look Up": {
+    "Topics found": "Gefundene Themen",
+    "Search": "Materialien suchen für"
+  },
+  "Materials": {
+    "Found these links": "Diese Materialien habe ich gefunden zu",
+    "Search new topic": "Nach neuem Thema suchen",
+    "All": "Alle Materialien",
+    "No study links": "Sieht so aus als gäbe es noch keine Lernmaterialien für {{subject}} ... ",
+    "Propose new links": "Falls du hilfreiche Materialien mit anderen Schülern teilen willst, kannst du dies gerne mit dem Knopf unten links vornehmen",
+    "Continue without links": "Natürlich kannst du auch einfach ohne Lernmaterialien weiterlernen"
+  },
+  "Frequencies": {
+    "Once": "einmalig",
+    "Weekly": "wöchentlich",
+    "Mo-Fr": "Mo-Fr",
+    "Only on weekends": "Nur Wochenende",
+    "Monthly": "monatlich"
+  },
+  "Subjects": {
+    "Englisch": "Englisch",
+    "Mathematik": "Mathematik",
+    "Deutsch": "Deutsch",
+    "DaZ": "DaZ"
+  },
+  "WeekDays": {
+    "Monday": "Montag",
+    "Tuesday": "Dienstag",
+    "Wednesday": "Mittwoch",
+    "Thursday": "Donnerstag",
+    "Friday": "Freitag",
+    "Saturday": "Samstag",
+    "Sunday": "Sonntag"
+  }
+}

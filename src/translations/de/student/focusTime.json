@@ -1,0 +1,22 @@
+{
+  "Recent Studies": "Vergangene Lernthemen",
+  "Recent Subjects": "Letzte Lernthemen",
+  "Recent Topics": "Letzte Themen",
+  "Subjects": "Fach",
+  "Topics": "Themen",
+  "Choose topic": "Wähle das Unterthema das dich interessiert.",
+  "Before you start": "Bevor du beginnst",
+  "Rules": {
+    "1": "Stelle dein Handy auf lautlos",
+    "2": "Lege dein Handy weg",
+    "3": "Schalte deinen Computer in den Modus \"Nicht stören\"",
+    "4": "Konzentriere dich nur auf das Lernen"
+  },
+  "Chosen Timer": "Gewählte Lerndauer",
+  "Select subject": "1. An welchem Schulfach willst du arbeiten? (Pflichtfeld)",
+  "What is your goal": "2. Was genau willst du für das gewählte Schulfach machen? (Pflichtfeld)",
+  "I want to study": "Lernziel",
+  "Material": "Lernquelle",
+  "How much are you going to study": "3. Wie lange soll deine Lerneinheit dauern?",
+  "Lets do it": "Fokuszeit starten"
+}

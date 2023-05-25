@@ -1,0 +1,74 @@
+{
+  "Something went wrong": "Something went wrong",
+  "Something went wrong, try again": "Something went wrong. Try again please!",
+  "Auth": {
+    "Can not finish registration now": "Can not finish registration now, try again later please.",
+    "Something wrong with credentials": "Something went wrong with credentials. Try again please.",
+    "Successfully signed in": "You have successfully signed in!",
+    "Successfully logged out": "You have successfully logged out.",
+    "Something wrong with logout": "Something went wrong with logout.",
+    "Can not get profile details": "Can not get profile details. Try again please.",
+    "Successfully updated profile": "You have successfully updated profile!",
+    "Password successfully updated": "Password successfully updated.",
+    "Password successfully reset": "Password was successfully reset.",
+    "Password was not updated": "Old password is wrong",
+    "Email is already taken": "This email is already taken",
+    "Nickname is already taken": "This nickname already taken",
+    "User does not exist": "User with current email does not exist."
+  },
+  "Grade": {
+    "Can not get grades": "Can not get grades"
+  },
+  "Group": {
+    "Can not get group lesson": "Can not get group lesson"
+  },
+  "Groups": {
+    "Can not get groups now": "Can not get groups now",
+    "Can not create a group now": "Can not create a group now",
+    "Group successfully updated": "Group successfully updated!.",
+    "Can not edit": "Can not edit this group now",
+    "You have successfully left the group": "You have successfully left the group",
+    "Can not leave this group now": "Can not leave this group now",
+    "The group was deleted": "The group was successfully deleted.",
+    "Can not delete group now": "Can not delete group now"
+  },
+  "Lessons": {
+    "Can not get lessons": "Can not get lessons.",
+    "Can not get lessons by current day": "Can not get lessons by current day.",
+    "Can not create a lesson": "Can not create a lesson",
+    "Group with this name already exists": "Group with this name already exists",
+    "Can not delete lesson": "Can not delete lesson.",
+    "Can not get lesson": "Can not get lesson.",
+    "Can not start the lesson": "Can not start the lesson"
+  },
+  "Materials": {
+    "Can not get materials": "Can not get materials by current topic.",
+    "Can not like": "Can not like current material.",
+    "Can not suggest link": "Can not suggest current link.",
+    "Can save history": "Can not save history."
+  },
+  "Schools": {
+    "Can not get schools": "Can not get schools."
+  },
+  "Subjects": {
+    "Can not get subjects": "Can not get subjects.",
+    "Can not get subject now": "Can not get subject now.",
+    "Suggested subject created": "Suggested subject successfully created",
+    "Can not create suggested subject": "Can not create suggested subject now.",
+    "Can not update your subjects": "Can not update your subjects now.",
+    "Subjects successful updated": "New subjects have been successfully saved"
+  },
+  "Summary": {
+    "Can not create a summary": "Can not create a summary.",
+    "Thanks for your feedback": "Thanks for your feedback"
+  },
+  "Teacher": {
+    "Can not get students list": "Can not get students list.",
+    "Can not get lessons": "Can not get student's lessons."
+  },
+  "Topics": {
+    "Can not get topics": "Can not get topics.",
+    "Can not get topics by current subject": "Can not get topics by current subject.",
+    "Can not get current topic": "Can not get current topic."
+  }
+}

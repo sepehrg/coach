@@ -1,0 +1,120 @@
+image: node:18
+services:
+  - docker:20.10-dind
+
+stages:
+  - build
+  - nginx
+  - deploy
+
+cache:
+  key: ${CI_COMMIT_REF_SLUG}
+  paths:
+    - node_modules/
+
+variables:
+  # Use TLS https://docs.gitlab.com/ee/ci/docker/using_docker_build.html#tls-enabled
+  DOCKER_TLS_CERTDIR: ''
+  DOCKER_DRIVER: overlay2
+  NODE_OPTIONS: --max_old_space_size=4000
+
+.build-template: &buildTemplate
+  stage: build
+  script:
+    - npm install
+    - npm run build
+  artifacts:
+    name: $CI_JOB_NAME-${CI_COMMIT_SHA:0:8}
+    paths:
+      - build/
+    expire_in: 1 day
+  dependencies: []
+
+build-test:
+  <<: *buildTemplate
+  except:
+    - master
+    - develop
+
+build-staging:
+  <<: *buildTemplate
+  variables:
+    VITE_API_URL: 'https://educoach-be.staging.educoachapp.de'
+    VITE_TWILIO_API_KEY: $VITE_TWILIO_API_KEY
+    VITE_TWILIO_API_SECRET: $VITE_TWILIO_API_SECRET
+    VITE_MIXPANEL_DEV_TOKEN: $VITE_MIXPANEL_DEV_TOKEN
+    VITE_MIXPANEL_TOKEN: $VITE_MIXPANEL_TOKEN
+    NODE_ENV: staging
+  only:
+    - develop
+
+build-production:
+  <<: *buildTemplate
+  variables:
+    VITE_API_URL: 'https://educoach-be.services.educoachapp.de'
+    VITE_TWILIO_API_KEY: $VITE_TWILIO_API_KEY
+    VITE_TWILIO_API_SECRET: $VITE_TWILIO_API_SECRET
+    VITE_MIXPANEL_DEV_TOKEN: $VITE_MIXPANEL_DEV_TOKEN
+    VITE_MIXPANEL_TOKEN: $VITE_MIXPANEL_TOKEN
+    NODE_ENV: production
+  only:
+    - master
+
+.registry-push-template: &registryPushTemplate
+  stage: nginx
+  image: docker:20.10-dind
+  cache: {}
+  before_script:
+    - docker login -u gitlab-ci-token -p $CI_BUILD_TOKEN $CI_REGISTRY
+  script:
+    - docker build --pull -t $CI_REGISTRY_IMAGE:latest .
+    - docker push $CI_REGISTRY_IMAGE:latest
+
+registry-push-staging:
+  <<: *registryPushTemplate
+  dependencies:
+    - build-staging
+  only:
+    - develop
+
+registry-push-production:
+  <<: *registryPushTemplate
+  dependencies:
+    - build-production
+  only:
+    - master
+
+.deploy: &deploy-template
+  stage: deploy
+  cache: {}
+  before_script:
+    - 'which ssh-agent || ( apk update && apk add --no-cache openssh )'
+    - mkdir -p ~/.ssh && eval $(ssh-agent -s)
+    - '[[ -f /.dockerenv ]] && echo -e "Host *\n\tStrictHostKeyChecking no\n\n" > ~/.ssh/config'
+    - ssh-add <(echo "$DEPLOYER_PRIVATE_KEY")
+
+deploy to staging:
+  <<: *deploy-template
+  script:
+    - scp -P22 -r docker-compose.yml deployer@$STAGING_SERVER_IP:$CI_PROJECT_NAME
+    - ssh -p22 deployer@$STAGING_SERVER_IP
+      "docker login -u gitlab-ci-token -p $CI_BUILD_TOKEN $CI_REGISTRY;
+      cd $CI_PROJECT_NAME;
+      echo DOMAIN=educoach-fe.staging.educoachapp.de >> .env;
+      docker-compose pull frontend;
+      docker-compose up -d --force-recreate frontend"
+  only:
+    - develop
+
+deploy to production:
+  <<: *deploy-template
+  script:
+    - scp -P22 -r docker-compose.yml deployer@$PRODUCTION_SERVER_IP:$CI_PROJECT_NAME
+    - ssh -p22 deployer@$PRODUCTION_SERVER_IP
+      "docker login -u gitlab-ci-token -p $CI_BUILD_TOKEN $CI_REGISTRY;
+      cd $CI_PROJECT_NAME;
+      echo DOMAIN=educoachapp.de >> .env;
+      docker-compose pull frontend;
+      docker-compose up -d --force-recreate frontend"
+  only:
+    - master

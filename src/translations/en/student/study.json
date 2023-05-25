@@ -1,0 +1,176 @@
+{
+  "Start": "Start",
+  "Focus time from last time": "Focus time from last time",
+  "Finish study": "Finish learning early",
+  "Finish search": "Finish search",
+  "Back to study links": "Back to all study links",
+  "How long": "How long are you going to study",
+  "Good to start with": "Good to start with",
+  "Today I am motivated": "Today I am motivated",
+  "Recommended Sources": "Recommended Sources",
+  "Thanks": "We review your proposal and put into the learning library.",
+  "My homework": "My homework",
+  "Upcoming exams": "Upcoming exams",
+  "days overdue": "day(s) overdue",
+  "for today": "for today",
+  "days left": "day(s) left",
+  "I have another link": "I have another link for this topic",
+  "Another link for subject": "I have another link for this subject",
+  "Add Homework": "Enter a homework note here",
+  "Add Homework Explanaition": "Here you can add your exams or homework. This will then help you to organize yourself better",
+  "No recommended sources available": "No recommended sources available",
+  "Search study content": "Search study content",
+  "Session goal": "Session goal",
+  "Today": "Today",
+  "Which topic": "Which topic would you like to study for?",
+  "Topics found": "Topics found",
+  "Help me": "Help me",
+  "What topic are you looking for": "What topic are you looking for?",
+  "Important appointments": "Important appointments",
+  "Friends": "Friends",
+  "Family": "Family",
+  "Time for myself": "Time for myself",
+  "Ido": "Ido",
+  "Name of appointment": "Name of appointment",
+  "What are you planning": "What are you planning?",
+  "Date": "Date",
+  "Time": "Time",
+  "Details": "Details",
+  "LoFi": "LoFi",
+  "Recommendations": "Recommendations",
+  "Learning History": "Learning History",
+  "Study Cards": "Study Cards",
+  "Recommended for you": "Recommended for you",
+  "More search results": "More search results",
+  "Help Me Modal": {
+    "Ways to search for topics": "Here are some ways to search for topics",
+    "Note": "Note:",
+    "If unsure": "If you’re still unsure, enter the headline of your last notebook entry for that subject",
+    "Got it": "Got it!",
+    "Hint 1": "At the top of the last page of your book",
+    "Hint 2": "On recent exercise sheets",
+    "Hint 3": "Headline of your last notebook entry"
+  },
+  "Recommendation": {
+    "All": "All",
+    "Summary": "Summary",
+    "Exercise sheets": "Exercise sheets",
+    "Video": "Video"
+  },
+  "Another Link Modal": {
+    "I want to suggest a link": "I want to suggest a link",
+    "Subject": "Subject:",
+    "Grade": "Grade:",
+    "Copy the link in here": "Copy the link in here:",
+    "What happens then": "What happens then?",
+    "When the teacher check": "when the teacher has checked your link, it will be added to our database."
+  },
+  "Sources": {
+    "All": "All",
+    "Visual": "Visual",
+    "Auditory": "Auditory",
+    "Kensethetic": "Kinesthetic",
+    "Reading/Writing": "Reading/Writing"
+  },
+  "Timer": {
+    "Remaining": "Remaining",
+    "Finish Learning": "Finish Learning"
+  },
+  "Confirmation": {
+    "Are you sure": "Are you sure you want to finish learning",
+    "Time Spent": "Time Spent",
+    "Continue Learning": "Continue Learning",
+    "Finish Learning": "Finish Learning"
+  },
+  "Help": {
+    "Learning Types": "Learning Types",
+    "Visual": "In the history of modern astronomy, there is probably no one greater leap forward than the building and launch of the space telescope.",
+    "Auditory": "Forward than the building and launch of the space telescope.",
+    "Kensethetic": "In the history of modern astronomy, there is probably no one greater leap forward than the building and launch of the space telescope.",
+    "Reading/Writing": "History of modern astronomy, there is probably no one greater leap forward than the building.",
+    "Continue Learning": "Continue Learning"
+  },
+  "Finish Automatic Modal": {
+    "Time's up": "Time's up!",
+    "Today's study time": "Today's study time:",
+    "minutes": "minutes",
+    "What do you want to do?": "What do you want to do?",
+    "Continue studying": "Continue studying",
+    "Done": "Done",
+    "Take a break": "Take a break"
+  },
+  "Add Homework Modal": {
+    "Add": "Add",
+    "Homework": "Homework",
+    "Exam": "Exam",
+    "Subject": "Subject",
+    "Select subject": "Select subject",
+    "Enter title": "Enter your {{type}} title",
+    "Completed": "Completed!",
+    "Save": "Save"
+  },
+  "Break Modal": {
+    "Did you know": "Did you know that...",
+    "Finish break": "Finish break",
+    "Break time": "Break time"
+  },
+  "Yeah you made it": "Yeaaahh you made it!",
+  "How happy": "How happy have you been with your studies today",
+  "Summarize": "Summarize what you learned today in your own words",
+  "Something": "Something you want to learn or improve on",
+  "Complete": "Complete",
+  "Session Type": {
+    "Hi": "Hi ",
+    "How can I help": "How can I help you today?",
+    "study session": "I want to start a study session",
+    "look up": "I want to quickly look up something"
+  },
+  "Select Subject": {
+    "Choose": "Choose the subject for your study session:"
+  },
+  "Select Goal": {
+    "Choose your focus time": "Choose your focus time",
+    "Do your homework": "Do your homework",
+    "Study concentrated": "Study concentrated",
+    "Prepare for your next exam": "Prepare for your next exam",
+    "Repeat what you have already learned": "Repeat what you have already learned"
+  },
+  "Set Time": {
+    "How long": "For how long do you want to study?",
+    "Set time": "Set time"
+  },
+  "Look Up": {
+    "Topics found": "Topics found",
+    "Search": "Search the learning database:"
+  },
+  "Materials": {
+    "Found these links": "I found these links for the topic",
+    "Search new topic": "Search new topic",
+    "All": "All",
+    "No study links": "Seems like there are no study links for {{subject}} yet... ",
+    "Propose new links": "Feel free to propose new study links on the bottom left of the screen",
+    "Continue without links": "But of course you can continue studying without study links"
+  },
+  "Frequencies": {
+    "Once": "Once",
+    "Weekly": "Weekly",
+    "Mo-Fr": "Mo-Fr",
+    "Only on weekends": "Only on weekends",
+    "Monthly": "Monthly"
+  },
+  "Subjects": {
+    "Englisch": "English",
+    "Mathematik": "Maths",
+    "Deutsch": "German",
+    "DaZ": "DaZ"
+  },
+  "WeekDays": {
+    "Monday": "Monday",
+    "Tuesday": "Tuesday",
+    "Wednesday": "Wednesday",
+    "Thursday": "Thursday",
+    "Friday": "Friday",
+    "Saturday": "Saturday",
+    "Sunday": "Sunday"
+  }
+}
